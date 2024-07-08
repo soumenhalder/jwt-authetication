@@ -51,9 +51,17 @@ MIDDLEWARE = [
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
+    # for frontend request
+    'corsheaders.middleware.CorsMiddleware',
+    'django.middleware.common.CommonMiddleware',
 ]
 
 ROOT_URLCONF = "jwt_authetication.urls"
+
+# for frontend request
+CORS_ALLOWED_ORIGINS = [
+    'http://localhost:3000',  # Your React app URL
+]
 
 TEMPLATES = [
     {
