@@ -1,0 +1,32 @@
+.image-button-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .image-button {
+    border: none;
+    background-color: #c6c9e7; /* Very light blue */
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    padding: 0; /* Remove padding */
+    width: 40px; /* Adjust width to match height for a circular button */
+    height: 40px; /* Adjust height to match width for a circular button */
+    border-radius: 50%; /* Make the button circular */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-button:hover {
+    transform: scale(1.05);
+  }
+  
+  .image-button img {
+    display: block;
+    width: 30px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
