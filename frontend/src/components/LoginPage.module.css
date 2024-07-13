@@ -1,49 +1,103 @@
-.container {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    text-align: center;
-    margin: auto;
-  }
-  
-  h1 {
-    margin-bottom: 20px;
-  }
-  
-  form {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  form div {
-    margin-bottom: 15px;
-  }
-  
-  label {
-    margin-bottom: 5px;
-    display: block;
-  }
-  
-  input {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    width: 100%;
-  }
-  
-  button {
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    background-color: #007bff;
-    color: white;
-    cursor: pointer;
-    margin-top: 10px;
-  }
-  
-  button:hover {
-    background-color: #0056b3;
-  }
-  
+.Logincontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.home_button {
+  display: flex;
+  justify-content: left;
+  /* Distribute items evenly */
+  background-color: white;
+  /* Light blue background */
+  border-style: none;
+  height: 70px;
+  padding: 20px;
+}
+
+.logincontent {
+  max-height: calc(100vh - 100px);
+
+
+  font-size: 16px;
+}
+
+.loginImage {
+  margin-right: 20px;
+  display: flex;
+  /* Add this to center the image vertically */
+  justify-content: center;
+  /* Center horizontally if needed */
+  align-items: center;
+  /* Center vertically */
+}
+
+.Logincontent1 {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.image {
+  max-width: 100%;
+  /* Ensure image does not exceed viewport height */
+  height: auto;
+  /* Maintain aspect ratio */
+}
+
+.homeicon {
+  margin: 10px;
+  display: flex;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  border-style: none;
+  cursor: pointer;
+  border-style: none;
+  background-color: transparent;
+  color: black;
+}
+
+
+form div {
+  margin-bottom: 15px;
+}
+
+label {
+  margin-bottom: 5px;
+  display: block;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

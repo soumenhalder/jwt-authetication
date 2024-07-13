@@ -1,7 +1,9 @@
 .header-up {
   display: flex;
-  justify-content: center; /* Distribute items evenly */
-  background-color: white; /* Light blue background */
+  justify-content: center;
+  /* Distribute items evenly */
+  background-color: white;
+  /* Light blue background */
   border-style: none;
   height: 70px;
   padding: 20px;
@@ -32,7 +34,7 @@
 .header-buttons {
   display: flex;
   background-color: transparent;
-  
+
 }
 
 .LoginButtonContainer {
@@ -47,21 +49,23 @@
   align-items: center;
   cursor: pointer;
   background-color: var(--lightThemeColor1);
-  color:  var(--themeColor);/*#333333; /* Dark text color */
+  color: var(--themeColor);
+  /*#333333; /* Dark text color */
   font-size: 14px;
   cursor: pointer;
 }
 
 .login-button:hover {
-  background-color: #e0e0e0; /* Light gray background on hover */
+  background-color: #e0e0e0;
+  /* Light gray background on hover */
 }
 
 
-.SocialMediaContainer{
+.SocialMediaContainer {
   display: flex;
   border-style: none;
   justify-content: end;
-  align-items: end;    
+  align-items: end;
   border-color: cyan;
   border-style: none;
 }
@@ -82,4 +86,3 @@
   height: 30px;
   width: 30px;
 }
-
