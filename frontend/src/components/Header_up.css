@@ -1,40 +1,85 @@
-.header {
+.header-up {
   display: flex;
-  justify-content: space-between; /* Distribute items evenly */
-  align-items: center; /* Center items vertically */
-  padding: 10px 20px; /* Adjust padding as needed */
+  justify-content: center; /* Distribute items evenly */
   background-color: white; /* Light blue background */
-/*  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);*/ /* Shadow for header */
+  border-style: none;
+  height: 70px;
+  padding: 20px;
 }
 
-.logo {
-  flex: 1; /* Take up available space on the left */
+
+.header-up-left {
+  display: flex;
+  width: 100%;
+  border-style: none;
 }
+
+.header-up-right {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  border-style: none;
+
+}
+
 
 .logo img {
-  height: 40px; /* Adjust height of logo */
+  aspect-ratio: 6.2 / 1;
+
+
 }
 
 .header-buttons {
   display: flex;
-  gap: 10px; /* Adjust spacing between elements */
+  background-color: transparent;
+  
 }
 
-.auth-buttons {
-  margin-left: auto; /* Push buttons to the right */
+.LoginButtonContainer {
+  border-style: none;
+  justify-content: end;
+
 }
 
 .login-button {
-  padding: 8px 16px;
-  border: none;
-  background-color: #c6c9e7; /* Very light blue */; 
-  color: #333333; /* Dark text color */
+  border-style: none;
+  Margin: 10px;
+  align-items: center;
+  cursor: pointer;
+  background-color: var(--lightThemeColor1);
+  color:  var(--themeColor);/*#333333; /* Dark text color */
   font-size: 14px;
   cursor: pointer;
-  border-radius: 4px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for buttons */
 }
 
 .login-button:hover {
   background-color: #e0e0e0; /* Light gray background on hover */
 }
+
+
+.SocialMediaContainer{
+  display: flex;
+  border-style: none;
+  justify-content: end;
+  align-items: end;    
+  border-color: cyan;
+  border-style: none;
+}
+
+
+
+.fbicon {
+  margin: 10px;
+  display: flex;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  color: var(--themeColor);
+  border-style: none;
+  background-color: var(--lightThemeColor1);
+  cursor: pointer;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+}
+
